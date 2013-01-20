@@ -20,4 +20,7 @@ set hlsearch
 set cc=80
 
 let g:miniBufExplVSplit = 40 
-let g:miniBufExplMapCTabSwitchBufs = 1 
+let g:miniBufExplShowBufNumbers = 1
+
+noremap ° :bp<cr>
+noremap <S-TAB> :bn<cr>
