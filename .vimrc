@@ -18,6 +18,8 @@ set shiftwidth=2
 set expandtab 
 set hlsearch
 set cc=80
+set modeline
+set ls=2
 
 let html_no_rendering = 1
 
