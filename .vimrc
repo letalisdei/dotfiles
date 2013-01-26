@@ -19,8 +19,7 @@ set expandtab
 set hlsearch
 set cc=80
 
-let g:miniBufExplVSplit = 40 
-let g:miniBufExplShowBufNumbers = 1
+let html_no_rendering = 1
 
-noremap ° :bp<cr>
-noremap <S-TAB> :bn<cr>
+noremap ° :tabp<cr>
+noremap <S-TAB> :tabn<cr>
