@@ -24,7 +24,7 @@ set modeline
 set ls=2
 
 set cc=80
-hi ColorColumn ctermbg=DarkRed
+hi ColorColumn ctermbg=darkgray
 
 let html_no_rendering = 1
 
