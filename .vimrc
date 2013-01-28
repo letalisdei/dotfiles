@@ -28,9 +28,8 @@ hi ColorColumn ctermbg=darkgray
 
 let html_no_rendering = 1
 
-let g:nerdtree_tabs_open_on_console_startup = 1
-let g:nerdtree_tabs_focus_on_files = 1
-autocmd vimenter * NERDTree
-
+let g:netrw_liststyle = 3
 noremap ° :tabp<cr>
 noremap <S-TAB> :tabn<cr>
+noremap <F2> :Texplore<cr>
+
