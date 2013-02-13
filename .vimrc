@@ -22,9 +22,13 @@ set expandtab
 set hlsearch
 set modeline
 set ls=2
+set nu
+set nobackup
+set noswapfile
 
 set cc=80
 hi ColorColumn ctermbg=darkgray
+hi LineNr ctermfg=darkgray
 
 let html_no_rendering = 1
 
