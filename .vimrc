@@ -8,8 +8,6 @@ colorscheme default
 set nocompatible
 set showcmd		
 set showmatch		
-set ignorecase		
-set smartcase		
 set incsearch		
 set autowrite		
 set hidden             
